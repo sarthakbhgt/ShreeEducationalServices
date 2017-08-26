@@ -668,9 +668,13 @@ a.btn{
 
 #bener{
     background-color: white;
-    background:url(../img/benner_bg.jpg) no-repeat;
-	background-size:900px 600px;
-    background-position: right;
+    background:url(../img/benner_bg.jpg) no-repeat center center;
+    /* background-size:900px 600px; */
+    /* background-position: right; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bener_content{
@@ -1158,7 +1162,7 @@ a.get_stared_btn{
 
 /* About Us Page CSS */
 #about_banner{
-    background:url(../img/ab_baner.jpg);
+    background:url(../img/ab_baner.jpg) no-repeat center center;
     background-size:cover;
 }
 .about_overlay{
