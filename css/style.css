@@ -1109,6 +1109,21 @@ h3.sign {
 .banner_bottom {
 	padding: 7em 0;
 }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
 
 h3.headerw3 {
 	font-size: 3.5em;
